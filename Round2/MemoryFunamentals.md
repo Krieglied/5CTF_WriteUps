@@ -28,6 +28,7 @@ This write-up is related to the Memory Fundamentals challenges.
 - PsActiveProcessHead (look at psxview for Volatility)
 24 : KDBG "magic number" for Windows Server 2008
 - 0x00000000000000004b4442473003 (found with https://github.com/libvmi/libvmi/blob/master/libvmi/os/windows/kdbg.c)
+
 6 : What is the corresponding physical offset for this data
 - Execute following commands
   - python vol.py -f /data/sample001.bin --profile=WinXPSP3x86 volshell
