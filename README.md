@@ -1,1 +1,1 @@
-Some Write Ups Based on the 5CTF from March 25-Apr 24
+Write Ups tied to the 5CTF, hosted by the 567 COG.
