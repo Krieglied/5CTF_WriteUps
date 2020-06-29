@@ -30,9 +30,9 @@ This write-up is related to the Memory Fundamentals challenges.
 - 0x00000000000000004b4442473003 (found with https://github.com/libvmi/libvmi/blob/master/libvmi/os/windows/kdbg.c)
 6 : What is the corresponding physical offset for this data
 - Execute following commands
-  python vol.py -f /data/sample001.bin --profile=WinXPSP3x86 volshell
-  cc(pid=628)
-  proc().get_process_address_space().vtop(0x77a80000)
+  - python vol.py -f /data/sample001.bin --profile=WinXPSP3x86 volshell
+  - cc(pid=628)
+  - proc().get_process_address_space().vtop(0x77a80000)
 2 : subsystem of modern processors acts as a cache to the MMU in order to avoid costly translation operations in order to find physical addresses
 - translation lookaside buffer
 27 : How many null terminated strings of >=10 characters in little endian and big endian format are found in sample001.bin
